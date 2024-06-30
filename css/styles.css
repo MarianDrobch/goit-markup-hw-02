@@ -1,5 +1,6 @@
 body {font-family: "Roboto" sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul, ol {
@@ -57,24 +58,29 @@ a {text-decoration: none;}
 }
 
 .main-page-title {
+    
     color: #fff;
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .main-page-button {
-    background-color: #4D5AE5;
-    color: #fff;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
     cursor: pointer;
+    background-color: #4d5ae5;
+}
+
+.main-page-button:hover,
+.main-page-button:focus {
+    background-color: #404BBF
 }
 
 .list-title {
