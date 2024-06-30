@@ -110,7 +110,7 @@ a {text-decoration: none;}
 }
 
 .team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -121,7 +121,10 @@ a {text-decoration: none;}
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+}
 
+.team-list {
+    background-color: #FFFFFF
 }
 
 .team-name {
